@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ***** HEADER ***** */
+
+header {
+  background-color: #333;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header a {
+  color: #fff;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ***** SEARCH ***** */
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+
+/* ***** POSTS ***** */
+
+.posts {
+  border: 1px solid #333;
+  width: 100vw;
+}
+
+.posts ul li {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
